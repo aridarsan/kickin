@@ -1,13 +1,18 @@
+import { Switch, Route } from "react-router-dom";
 import './App.css';
+import Home from "./components/Home";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <p>
-        Hello Kick-in !!!
-      </p>
+    <div>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+      </Switch>
+      <footer />
     </div>
-  );
+  )
 }
 
 export default App;
