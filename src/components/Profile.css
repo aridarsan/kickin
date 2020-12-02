@@ -1,0 +1,33 @@
+.Profile {
+    background-color: rgb(49, 49, 49);
+    padding-top: 5cm;
+    padding-bottom: 7cm;
+    padding-right: 20cm;
+    padding-left: 5cm;
+    width: 100%;
+}
+img {
+    max-width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+
+h4, h5, p {
+    color: white;
+}
+
+h4 {
+    line-height: 2.5cm;
+}
+
+h5 {
+    line-height: 1.5cm;
+}
+
+Button {
+    background-color: rgb(84, 84, 84);
+    align-items: center;
+    width: 11.5cm;
+}
