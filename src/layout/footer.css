@@ -1,0 +1,95 @@
+.footer{
+    background-color: #313131;
+}
+
+.icon-logo {
+    color: #FE024E;
+    font-size: 50px;
+}
+
+.content-row{
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.brand h2{
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.brand:hover{
+    text-decoration: none;
+}
+
+.desc-brand{
+    color: white;
+    margin-top: 15px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.features{
+    margin-top: 10px;
+    display: block;
+    color: white;
+    font-size: 17px;
+    padding: 12px 30px 12px 0px;
+}
+
+.features.about {
+    margin-left :14px;
+}
+
+.features.help {
+    margin-left :20px;
+}
+
+.features:hover{
+    text-decoration: none;
+    color: #8C8989;
+}
+
+.sosmed h4{
+    color: white;
+    margin-top: 15px;
+}
+
+.icon-store{
+    /* color: #FE024E; */
+    font-size: 30px;
+    align-content: center;
+}
+.icon-store.appStore {
+    padding-left: 12px;
+}
+
+.features-os{
+    margin-right: 15px;
+    color: white;
+    font-size: 17px;
+}
+
+.features-os:hover{
+    text-decoration: none;
+    color: #8C8989;
+}
+/* .features.about {
+    padding: 24px;
+} */
+
+.icon-sosmed{
+    /* color: #FE024E; */
+    font-size: 30px;
+    /* margin-top: 5px;
+    margin-right: 20px; */
+    padding: 12px 30px 12px 0px;
+}
+
+.footer hr{
+    border: .5px solid #D4D4D4;
+}
+
+.sub-footer p{ 
+    color: white;
+}

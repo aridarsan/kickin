@@ -6,7 +6,6 @@ import {
 } from "reactstrap";
 import './home.css';
 import header from '../img/header-bg.svg';
-import background from '../img/headerBackground.svg';
 import fieldA from "../img/field-a.svg"
 import fieldB from "../img/field-b.svg"
 import fieldC from "../img/field-c.svg"
