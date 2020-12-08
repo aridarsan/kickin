@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.editavatar {
+    margin: auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    cursor: pointer;
+    text-align: center;
+    color: #53C9C2;
+}
+
+.form-name, .form-bio {
+    background-color: #7B7B7B;
+    color: white;
+}
+
+.form-avatar {
+    margin: auto;
+    text-align: center;
+}
+
+#myfile {
+    display: none;
+}

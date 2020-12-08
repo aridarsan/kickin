@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.modal-body, .modal-header, .modal-content{
+    background-color: rgb(49, 49, 49);
+    border: none;
+    border-radius: 5px;
+}
+
+.modal-title {
+    font-weight: bold;
+}
+
+.modal-header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin: auto;
+}
+
+.label {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #F4F4F4;
+}
+
+.form-control {
+    background-color: #545454;
+    border: none;
+    color: #F4F4F4;
+}
+
+.btn-primary {
+    margin: auto;
+    color: #313131;
+    background-color: #53C9C2;
+}
+

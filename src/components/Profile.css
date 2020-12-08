@@ -1,11 +1,17 @@
-.Profile {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
     background-color: rgb(49, 49, 49);
-    padding-top: 5cm;
-    padding-bottom: 7cm;
-    padding-right: 20cm;
-    padding-left: 5cm;
-    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
 }
+
+.Profile {
+    max-width: 90%;
+    margin: auto;
+}
+
 img {
     max-width: 20%;
     display: block;
@@ -14,20 +20,97 @@ img {
     border-radius: 100%;
 }
 
-h4, h5, p {
+.fullname {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 1cm;
+}
+
+.bio {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+h3, h4, p {
     color: white;
 }
 
 h4 {
-    line-height: 2.5cm;
+    line-height: 1.5cm;
 }
 
 h5 {
     line-height: 1.5cm;
 }
 
-Button {
-    background-color: rgb(84, 84, 84);
+.button-profil {
+    background-color: #545454;
+    color: #53C9C2;
     align-items: center;
-    width: 11.5cm;
+    width: 100%;
+    height: 10%;
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.book-history {
+    border: 1px solid #7B7B7B;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.h4-book-history {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    /* identical to box height */
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+.history {
+    background-color: rgb(84, 84, 84);
+    max-width: 90%;
+    max-height: 30%;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+}
+
+.direction {
+    border: none;
+    width: 90%;
+    margin: auto;
+}
+
+.comingupmatch, .givefeedback {
+    background-color: rgb(84, 84, 84);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.comingupmatch {
+    color:#FFCB74;
+}
+
+.givefeedback {
+    color:#53C9C2;
+    cursor: pointer;
+}
+
+.fielddate, .fieldname  {
+    background-color: rgb(84, 84, 84);
+    margin: auto;
+    padding-bottom: 0.5%;
 }
